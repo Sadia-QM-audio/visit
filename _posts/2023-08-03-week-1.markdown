@@ -11,8 +11,9 @@ project-date: 03 August 2023
 client: Start Bootstrap
 category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+---
 
-# (edit the _layouts/portfolio_grid file and comment out the div class 'portfolio caption'. This way, the text won't be displayed in main menu )
+[comment]: # (edit the _layouts/portfolio_grid file and comment out the div class 'portfolio caption'. This way, the text won't be displayed in main menu )
 
 On my first day, I met the people in the Lusail Museum team, and got to know more about their work by attending the weekly meeting. It was interesting to learn what everyone is working on and how they do different tasks, especially the preparation for future exhibitions. Later, Mr. Christophe showed me and Jenan many of the exhibits and the different types of multimedia content available in the National Museum. It was a truly wonderful experience, and it increased my interest in learning and contributing as much as I could during this internship. 
 
