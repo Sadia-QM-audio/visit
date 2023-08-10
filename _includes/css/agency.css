@@ -402,6 +402,10 @@ section h3.section-subheading {
     margin: 0;
 }
 
+.portfoliocontent {
+    text-align: justify;
+}
+
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
