@@ -13,17 +13,13 @@ category: Web Development
 description: lorem ipsum
 ---
 
-<!--
-edit the _layouts/portfolio_grid file and comment out the div class 'portfolio caption'. This way, the text won't be displayed in main menu )
--->
-
 Hii, still writing it
 
 
 This week, I built an audio guide for Lusail Museum by using the audio guide template published by ACMI Labs. The repository for the original audio guide can be found [here](https://github.com/ACMILabs/static-museum-audio-guide).
 
-You can check out my website by scanning this QR code.
-
+You can check out my website by scanning this QR code or clicking this [link](https://sadia-qm-audio.github.io/static-museum-audio-guide/welcome/).
+![QR code that links to audio guide](/img/week-2-qr-code.pngweek-2-qr-code.png)
 
 
 At first, I went through the documentation on ACMILabs' Github repository, which explains the general setup and layout of components in a clear, concise manner. I do not have much experience with forking exisiting repositories and working on them, so perusing their documentation and going through their source code was very helpful. I also opened the live demo website, and compared it to the source-code to familiarize myself with how different components are arranged, which was quite helpful later on for cutomizing the wensite's appearance.
