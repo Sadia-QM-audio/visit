@@ -1,5 +1,5 @@
 ---
-title: Week 1
+title: Week 2
 subtitle: subtitle
 layout: default
 modal-id: 6
@@ -7,13 +7,16 @@ date: 2023-08-03
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
-project-date: 30 June - 03 August
+project-date: 06 August - 10 August
 client: Start Bootstrap
 category: Web Development
 description: lorem ipsum
 ---
 
-[comment]: # "edit the _layouts/portfolio_grid file and comment out the div class 'portfolio caption'. This way, the text won't be displayed in main menu"
+<!--
+edit the _layouts/portfolio_grid file and comment out the div class 'portfolio caption'. This way, the text won't be displayed in main menu )
+-->
+
 
 On my first day, I met the people in the Lusail Museum team, and got to know more about their work by attending the weekly meeting. It was interesting to learn what everyone is working on and how they do different tasks, especially the preparation for future exhibitions. Later, Mr. Christophe showed me and Jenan many of the exhibits and the different types of multimedia content available in the National Museum. It was a truly wonderful experience, and it increased my interest in learning and contributing as much as I could during this internship. 
 
