@@ -10,9 +10,8 @@ alt: image-alt
 project-date: 03 August 2023
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
----
+description: 
+Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 [comment]: # (edit the _layouts/portfolio_grid file and comment out the div class 'portfolio caption'. This way, the text won't be displayed in main menu )
 
@@ -27,3 +26,5 @@ The results of the survey revealed some interesting information. Most visitors a
 On Thursday, Mr. Martin gave me a tour and explained the behind-the-scenes work that goes on to make all the projections work seamlessly. He explained how the projectors are set up to account for the large and sometimes irregularly shaped walls, how video footage is edited and color corrected, as well as how everything is maintained. It was very informative, and I respect all the work that went into setting everything up, and the regular upkeep required.
 
 My first week here has been really exciting and I am glad I got to try out so many new things! I look forward to what I will learn and work on in the coming weeks. 
+
+---
