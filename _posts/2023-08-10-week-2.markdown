@@ -20,12 +20,12 @@ This week, I built an audio guide for Lusail Museum by using the audio guide tem
 
 You can check out my website by scanning this QR code or clicking this [link](https://sadia-qm-audio.github.io/static-museum-audio-guide/welcome/)
 
-![QR code that links to audio guide](/img/week-2-qr-code.png)
+![QR code that links to audio guide](../img/week-2-qr-code.png)
 
 When a visitor opens the website, they are greeted by a welcome page with simple instructions for using the audio guide. Then they are taken to the home page, which allows them to choose between 2 languages - English and Arabic, and choose which audio track to listen to. They are then taken to the page for the selected audio track, which contains the track and a transcript. They can switch to another track using the audio player, or the side menu.
 
-## My experience developing the audio guide
+#### My experience developing the audio guide
 
-At first, I went through the documentation on ACMILabs' Github repository, which explains the general setup and layout of components in a clear, concise manner. I do not have much experience with forking exisiting repositories and working on them, so perusing their documentation and going through their source code was very helpful. I also opened the live demo website, and compared it to the source-code to familiarize myself with how different components are arranged, which was quite helpful later on for cutomizing the website's appearance.
+At first, I went through the documentation on ACMILabs' Github repository, which explains the general setup and layout of components in a clear, concise manner. I do not have much experience with forking exisiting repositories and working on them, so perusing their documentation and going through their source code was very helpful. I also opened the live demo website, and compared it to the source-code to familiarize myself with how different components are arranged, which was quite helpful later on for customizing the website's appearance.
 
 
