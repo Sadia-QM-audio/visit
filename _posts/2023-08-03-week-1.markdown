@@ -7,7 +7,7 @@ date: 2023-08-03
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
-project-date: 30 June - 03 August
+project-date: 30 July - 03 August
 client: Start Bootstrap
 category: Web Development
 description: lorem ipsum
