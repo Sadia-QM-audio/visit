@@ -28,12 +28,10 @@ At first, I went through the documentation on ACMILabs' Github repository, which
 
 I extracted audio files from several videos using VLC Media Player for this project. I began by setting up the page for the first audio track. This included adding a title, transcript of the audio file and images. 
 
-<figure style="width: 0.5rem;">
-    <img src="img/portfolio/audioone.jpeg" alt="Audio track page">
+<figure>
+    <img src="img/portfolio/audioone.jpeg" class="img-responsive img-centered" alt="Audio track page">
     <figcaption>Caption for the image.</figcaption>
 </figure>
-
-<img src="img/portfolio/audioone.jpeg" alt="Audio track page" width=100%>
 
 ![Audio track page](img/portfolio/audioone.jpeg)
 
