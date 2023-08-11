@@ -28,6 +28,7 @@ At first, I went through the documentation on ACMILabs' Github repository, which
 
 I extracted audio files from several videos using VLC Media Player for this project. I began by setting up the page for the first audio track. This included adding a title, transcript of the audio file and images. 
 
+<img src="img/portfolio/audioone.jpeg" alt="Audio track page" width =100% />
 ![Audio track page](img/portfolio/audioone.jpeg)
 
 I did some trial and error, but eventually, the page looked as it should. I then added some more audio track pages in a similar fashion.
@@ -39,6 +40,7 @@ This solution is not perfect, but the other attempts I made at establishing this
 Finally, I tested some features to make sure everything was functioning properly. To make sharing the website easier, I generated QR codes for several pages. Later, I shared the website with several of my colleagues and got their feedback. 
 
 Some pictures of the completed website:
+
 ![home1](img/portfolio/audiohomearabic.png)
 ![home1](img/portfolio/audiohome.png)
 ![player](img/portfolio/playerandtranscript.png)
