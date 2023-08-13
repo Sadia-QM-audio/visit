@@ -403,6 +403,7 @@ section h3.section-subheading {
 }
 
 .portfoliocontent {
+    color: #{{ site.data.template.color.muted }};
     text-align: justify;
 }
 
