@@ -727,6 +727,10 @@ section#contact .text-danger {
 }
 
 footer {
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 25px 0;
     text-align: center;
 }
@@ -735,6 +739,7 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
+    color: #ffffff;
     line-height: 40px;
 }
 

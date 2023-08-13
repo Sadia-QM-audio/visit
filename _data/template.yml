@@ -2,18 +2,17 @@
 
 
 # The logo and links are in #primary 
-# Weekly report text color is # secondary-dark, but that can be changed later
 # Usually, title is # secondary-dark, and description is # muted
 color:
-  # primary: fed136
+  #primary: ad438e
+  #primary: fed136
   primary: ff476c # pink
-  #secondary: fec503   
-  #secondary: 	ff752f # darker pink
-  secondary: 	cc2847 # darker pink
-  secondary-dark: cc2847 # sand
+  secondary: cc2847 # darkpink 
+  # secondary: 	fec503   
+  secondary-dark: ff476c # pink
   #secondary-dark: 333
   #muted: 738bbd # blue
-  muted: 777
+  muted: 777 # gray
 
 # Font Families
 font:
