@@ -49,6 +49,8 @@ I then worked on fetching data from the Cleveland Museum of Art's API in a simil
 
 There are a few limitations of the website. The main problem is that it does not work if I search using a keyword that does not match the value returned by the API precisely. For example, if I search for 'Henry Edmond Cross' instead of 'Henry-Edmond Cross', I do not get the expected results. This applies to accent marks too. Another drawback is that if there are a lot of pieces in the museum's collection, it takes a fairly long time to generate the timeline - up to a minute or more! 
 
+You can view my website [here](https://sadia-qm-audio.github.io/artist-timeline/) 🌸
+
 Here are some snippets of the timelines generated using my project for different artists:
 
 Van Gogh:
