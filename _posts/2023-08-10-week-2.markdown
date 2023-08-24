@@ -19,7 +19,7 @@ This week, I built an audio guide for Lusail Museum by using the audio guide tem
 You can check out my website by scanning this QR code or clicking this [link](https://sadia-qm-audio.github.io/static-museum-audio-guide/welcome/)
 
 <figure>
-    <img src="img/portfolio/audio-qr-code.png" class="img-responsive img-centered" alt="QR code that links to audio guide">
+    <img src="img/portfolio/week-2/audio-qr-code.png" class="img-responsive img-centered" alt="QR code that links to audio guide">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -36,7 +36,7 @@ At first, I went through the documentation on ACMILabs' Github repository, which
 I extracted audio files from several videos using VLC Media Player for this project. I began by setting up the page for the first audio track. This included adding a title, transcript of the audio file and images. 
 
 <figure>
-    <img src="img/portfolio/audio-one.jpeg" class="img-responsive img-centered" alt="Audio track page">
+    <img src="img/portfolio/week-2/audio-one.jpeg" class="img-responsive img-centered" alt="Audio track page">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -55,7 +55,7 @@ Finally, I tested some features to make sure everything was functioning properly
 Some pictures of the completed website:
 
 <figure>
-    <img src="img/portfolio/audio-home-arabic.png" class="img-responsive img-centered" alt="Home page for Arabic">
+    <img src="img/portfolio/week-2/audio-home-arabic.png" class="img-responsive img-centered" alt="Home page for Arabic">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -64,7 +64,7 @@ Some pictures of the completed website:
 </figure>
 
 <figure>
-    <img src="img/portfolio/audio-home.png" class="img-responsive img-centered" alt="Home page for English">
+    <img src="img/portfolio/week-2/audio-home.png" class="img-responsive img-centered" alt="Home page for English">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -73,7 +73,7 @@ Some pictures of the completed website:
 </figure>
 
 <figure>
-    <img src="img/portfolio/playerandtranscript.png" class="img-responsive img-centered" alt="Audio Track Player and Transcript">
+    <img src="img/portfolio/week-2/audio-player-and-transcript.png" class="img-responsive img-centered" alt="Audio Track Player and Transcript">
     
     <!---
     <figcaption>Caption for the image.</figcaption>

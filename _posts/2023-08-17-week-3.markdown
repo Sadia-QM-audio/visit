@@ -15,9 +15,9 @@ description: lorem ipsum
 
 This week, I worked on creating a publication for the exhibition Tales of A Connected World using Quire. [Quire](https://quire.getty.edu/) is an open-source tool created by [Getty](https://www.getty.edu/) that allows the same set of files to be used for creating a website, pdf, and epub.
 
-You can view the pdf <a href="img/portfolio/quire-final.pdf" target="_blank">here</a>.
+You can view the pdf <a href="img/portfolio/week-3/quire-final.pdf" target="_blank">here</a>.
 
-[comment]: # (<embed src="img/portfolio/quire-final.pdf" type="application/pdf"   height="700px" width="500">)
+[comment]: # (<embed src="img/portfolio/week-3/quire-final.pdf" type="application/pdf"   height="700px" width="500">)
 
 [comment]: # (The embed tag also works!)
 
@@ -38,7 +38,7 @@ I have submitted a request for help on the forum, and received a prompt response
 Some screenshots of the website are displayed below.
 
 <figure>
-    <img src="img/portfolio/quire-cover-web.png" class="img-responsive img-centered" alt="">
+    <img src="img/portfolio/week-3/quire-cover-web.png" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -47,7 +47,7 @@ Some screenshots of the website are displayed below.
 </figure>
 
 <figure>
-    <img src="img/portfolio/quire-arabic.jpeg" class="img-responsive img-centered" alt="">
+    <img src="img/portfolio/week-3/quire-arabic.jpeg" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -56,7 +56,7 @@ Some screenshots of the website are displayed below.
 </figure>
 
 <figure>
-    <img src="img/portfolio/quire-cat-1.png" class="img-responsive img-centered" alt="Home page for English">
+    <img src="img/portfolio/week-3/quire-cat-1.png" class="img-responsive img-centered" alt="Home page for English">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -65,7 +65,7 @@ Some screenshots of the website are displayed below.
 </figure>
 
 <figure>
-    <img src="img/portfolio/quire-souq-toc.png" class="img-responsive img-centered" alt="">
+    <img src="img/portfolio/week-3/quire-souq-toc.png" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -74,7 +74,7 @@ Some screenshots of the website are displayed below.
 </figure>
 
 <figure>
-    <img src="img/portfolio/quire-desert.jpeg" class="img-responsive img-centered" alt="">
+    <img src="img/portfolio/week-3/quire-desert.jpeg" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
