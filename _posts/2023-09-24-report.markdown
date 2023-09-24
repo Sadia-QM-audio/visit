@@ -1,0 +1,18 @@
+---
+title: Report
+subtitle: subtitle
+layout: default
+modal-id: 7
+date: 2023-09-14
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: 24 Sepetember - 28 September
+client: Start Bootstrap
+category: Web Development
+description: lorem ipsum
+---
+
+Results from power BI report
+
+<iframe title="Forms Dashboard 01" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=93aaaf5e-6685-466d-833a-d774aabf7789&autoAuth=true&ctid=5564f8ab-c589-4a4d-8c9e-1354800afc71" frameborder="0" allowFullScreen="true"></iframe>
