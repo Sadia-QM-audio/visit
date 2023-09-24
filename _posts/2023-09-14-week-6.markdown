@@ -2,7 +2,7 @@
 title: Week 6
 subtitle: subtitle
 layout: default
-modal-id: 5
+modal-id: 6
 date: 2023-09-14
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
@@ -28,16 +28,10 @@ Users filling in the form can submit their email. Since there are multiple forms
 
 My next objective was to create a visualization of people's answers to a question, then show it with anyone who filled in the form. For this, I first created a chart in Power BI using the data collected from the form. Howver, I found that publishing reports on the internet is a Pro feature. As I am a free user, I cannot share reports online.
 
-I opted to use Excel again for the visualization. I found a very helpful tutorial
-
-
-
-
-
-
+I opted to use Excel again for the visualization. I found a very helpful tutorial by DamoBird365, linked [here](https://www.damobird365.com/awesome-create-charts-via-office-scripts/), which shows how scripts can be used to automatically generate charts based on existing data. I tested this by creating a workflow to send myself emails whenever anyone filled in the form.
 
 <figure>
-    <img src="img/portfolio/week-4/gif-fish-in-the-sea.gif" class="img-responsive img-centered" alt="">
+    <img src="img/portfolio/week-6/visualize-results.png" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -45,61 +39,8 @@ I opted to use Excel again for the visualization. I found a very helpful tutoria
 
 </figure>
 
-[comment]: # (Thoughts on how it has opened doors to people, pretty mind-boggling that you can walk around with a masterpiece printed on your phone cover, or you can create GIFs!)
-
-[comment]: # (GIF source: https://wayback.archive-it.org/18689/20220312031038/https://www.nypl.org/blog/2015/01/06/creativity-public-domain)
-
-I was excited about working with the open access collections of different museums. I began by exploring what projects and services people have already created using them. I loved some of the games found on the [Google Arts and Culture website](https://artsandculture.google.com/), like the Art Coloring Book, where users can color famous pieces of art as they like, and Pet Portrait, which compares photographs of one's pet to that of an animal in a painting! I also loved seeing then-and-now comparisons by different museums, which show how different a location looked in the past. You can check out some [here](https://www.rijksmuseum.nl/en/stories/then-and-now)!
-
-<!-- I came up with several ideas for projects that could utilize open source collections, like viewing works from a particular era, using AI to identify objects in different paintings, graphing the popularity of different mediums over time, etc.  -->
-
-I worked on creating a website that could show the timeline of an artist's works. It uses the open access APIs of [The Metropolitan Museum of Art](https://www.metmuseum.org/) and the [Cleveland Museum of Art](https://www.clevelandart.org/) (CMA). The APIs are used to collect information about the works made by a particular artist, and create a timeline.
-
-The API of the Met and CMA have different structures, so I used two separate functions to query data. I began by working using the Met's API, which conveniently has a function for searching for artists. However, I soon found that any artist whose name contains matching words are included in the returned result. For example, if I searched for 'Vincent van Gogh', I would get works from him along with other artists with 'vincent' or 'van' in their name. So, I added some conditions so that the results would be filtered correctly. This is an example of the working filter:
-
 <figure>
-    <img src="img/portfolio/week-4/proof-van-gogh-met.jpeg" class="img-responsive img-centered" alt="">
-    
-    <!---
-    <figcaption>Caption for the image.</figcaption>
-    --->
-
-</figure>
-
-I then worked on fetching data from the Cleveland Museum of Art's API in a similar way. After combining the two and experimenting a bit, I noticed that not all works display images. This is probably because some works are protected by copyright law. However, basic information about the works is still displayed, so I decided to keep them in the timeline.
-
-There are a few limitations of the website. The main problem is that it does not work if I search using a keyword that does not match the value returned by the API precisely. For example, if I search for 'Henry Edmond Cross' instead of 'Henry-Edmond Cross', I do not get the expected results. This applies to accent marks too. Another drawback is that if there are a lot of pieces in the museum's collection, it takes a fairly long time to generate the timeline - up to a minute or more! 
-
-You can view my website [here](https://sadia-qm-audio.github.io/artist-timeline/) 🌸
-
-Here are some snippets of the timelines generated using my project for different artists:
-
-Van Gogh:
-
-<figure>
-    <img src="img/portfolio/week-4/proof Final.jpeg" class="img-responsive img-centered" alt="">
-    
-    <!---
-    <figcaption>Caption for the image.</figcaption>
-    --->
-
-</figure>
-
-Michelangelo:
-
-<figure>
-    <img src="img/portfolio/week-4/proof - final - michelangelo.jpeg" class="img-responsive img-centered" alt="">
-    
-    <!---
-    <figcaption>Caption for the image.</figcaption>
-    --->
-
-</figure>
-
-Julia Margaret Cameron:
-
-<figure>
-    <img src="img/portfolio/week-4/proof - final - julia margaret cameron.jpeg" class="img-responsive img-centered" >
+    <img src="img/portfolio/week-6/graph-results.png" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -108,4 +49,3 @@ Julia Margaret Cameron:
 </figure>
 
 
-[^1]: Lampasone, Lauren. “#nyplremix: Get Creative with the Public Domain.” The New York Public Library, The New York Public Library, 11 Apr. 2016, wayback.archive-it.org/18689/20220312031038/https://www.nypl.org/blog/2015/01/06/creativity-public-domain. 

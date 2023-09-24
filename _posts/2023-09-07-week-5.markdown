@@ -15,11 +15,18 @@ description: lorem ipsum
 
 This week, I created a web scraper to collect auction data from multiple auction websites. I used python libraries like BeautifulSoup, results, pandas and cvs to do web scraping and visualize the collected data.
 
+I began by learning about the basics of web scraping and common ethical considerations related to the field. Then I tried following some tutorials to scrape data from websites made for learning web scraping. I particularly liked [this tutorial](https://realpython.com/python-web-scraping-practical-introduction/) by Real Python, which introduced concepts in an engaging manner and helped me understand the rationale behind each step. 
 
-I explored open access collections from museums around the world - the Rijksmuseum, the Metropolitan Museum of Art, the M+, and more. Many museums have made their vast collections of public domain artwork free for use, allowing anyone with an internet connection to view and utilize high-resolution images and metadata. People can use these services for education, research, commercial purposes, or for entertainment. The New York Public Library published an article online demonstrating how people can use works from their collection, including making GIFs! (Lampasone)[^1]
+For my project, I collected information about the auctions of works by a single artist only. I collected this data from the websites of [Bonhams](https://www.bonhams.com/) and [Sotheby's](https://www.sothebys.com/en/?locale=en).
+
+I quickly learned that the methods I used to collect html snippets before were ineffective for collecting information from websites that use javascript to load front-end content. I mainly worked using the BeautifulSoup library, which is insufficient for scraping javascript-rendered pages. So, I used [Selenium](https://www.selenium.dev/),  a software which automates web applications. It offers another advantage - while many webpages load content only when a user scrolls, Selenium automatically scrolls to the end. Therefore, when data is scraped using Selenium, the entire HTML file is loaded.
+
+In Bonhams' website, all information about auctions related to a specific artist can be searched for. At first, I collected data from this page only. However, the information available on this page is quite limited - only the title of the work, the link of the auction, as well as the estimated price can be found. I wanted to learn when the paintings were auctioned, so I then visited the url given for each work, and collected additional information. Using the information obtained, I created tables and downloaded them as Excel files. I used a similar methodology to collect information from Sotheby's' website.
+
+You can see some screenshots of my work below:
 
 <figure>
-    <img src="img/portfolio/week-4/gif-fish-in-the-sea.gif" class="img-responsive img-centered" alt="">
+    <img src="img/portfolio/week-5/code-for-bonhams.png" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -27,20 +34,8 @@ I explored open access collections from museums around the world - the Rijksmuse
 
 </figure>
 
-[comment]: # (Thoughts on how it has opened doors to people, pretty mind-boggling that you can walk around with a masterpiece printed on your phone cover, or you can create GIFs!)
-
-[comment]: # (GIF source: https://wayback.archive-it.org/18689/20220312031038/https://www.nypl.org/blog/2015/01/06/creativity-public-domain)
-
-I was excited about working with the open access collections of different museums. I began by exploring what projects and services people have already created using them. I loved some of the games found on the [Google Arts and Culture website](https://artsandculture.google.com/), like the Art Coloring Book, where users can color famous pieces of art as they like, and Pet Portrait, which compares photographs of one's pet to that of an animal in a painting! I also loved seeing then-and-now comparisons by different museums, which show how different a location looked in the past. You can check out some [here](https://www.rijksmuseum.nl/en/stories/then-and-now)!
-
-<!-- I came up with several ideas for projects that could utilize open source collections, like viewing works from a particular era, using AI to identify objects in different paintings, graphing the popularity of different mediums over time, etc.  -->
-
-I worked on creating a website that could show the timeline of an artist's works. It uses the open access APIs of [The Metropolitan Museum of Art](https://www.metmuseum.org/) and the [Cleveland Museum of Art](https://www.clevelandart.org/) (CMA). The APIs are used to collect information about the works made by a particular artist, and create a timeline.
-
-The API of the Met and CMA have different structures, so I used two separate functions to query data. I began by working using the Met's API, which conveniently has a function for searching for artists. However, I soon found that any artist whose name contains matching words are included in the returned result. For example, if I searched for 'Vincent van Gogh', I would get works from him along with other artists with 'vincent' or 'van' in their name. So, I added some conditions so that the results would be filtered correctly. This is an example of the working filter:
-
 <figure>
-    <img src="img/portfolio/week-4/proof-van-gogh-met.jpeg" class="img-responsive img-centered" alt="">
+    <img src="img/portfolio/week-5/bonhams-table.png" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -48,40 +43,8 @@ The API of the Met and CMA have different structures, so I used two separate fun
 
 </figure>
 
-I then worked on fetching data from the Cleveland Museum of Art's API in a similar way. After combining the two and experimenting a bit, I noticed that not all works display images. This is probably because some works are protected by copyright law. However, basic information about the works is still displayed, so I decided to keep them in the timeline.
-
-There are a few limitations of the website. The main problem is that it does not work if I search using a keyword that does not match the value returned by the API precisely. For example, if I search for 'Henry Edmond Cross' instead of 'Henry-Edmond Cross', I do not get the expected results. This applies to accent marks too. Another drawback is that if there are a lot of pieces in the museum's collection, it takes a fairly long time to generate the timeline - up to a minute or more! 
-
-You can view my website [here](https://sadia-qm-audio.github.io/artist-timeline/) 🌸
-
-Here are some snippets of the timelines generated using my project for different artists:
-
-Van Gogh:
-
 <figure>
-    <img src="img/portfolio/week-4/proof Final.jpeg" class="img-responsive img-centered" alt="">
-    
-    <!---
-    <figcaption>Caption for the image.</figcaption>
-    --->
-
-</figure>
-
-Michelangelo:
-
-<figure>
-    <img src="img/portfolio/week-4/proof - final - michelangelo.jpeg" class="img-responsive img-centered" alt="">
-    
-    <!---
-    <figcaption>Caption for the image.</figcaption>
-    --->
-
-</figure>
-
-Julia Margaret Cameron:
-
-<figure>
-    <img src="img/portfolio/week-4/proof - final - julia margaret cameron.jpeg" class="img-responsive img-centered" >
+    <img src="img/portfolio/week-5/sothebys-excel.png" class="img-responsive img-centered" alt="">
     
     <!---
     <figcaption>Caption for the image.</figcaption>
@@ -90,4 +53,4 @@ Julia Margaret Cameron:
 </figure>
 
 
-[^1]: Lampasone, Lauren. “#nyplremix: Get Creative with the Public Domain.” The New York Public Library, The New York Public Library, 11 Apr. 2016, wayback.archive-it.org/18689/20220312031038/https://www.nypl.org/blog/2015/01/06/creativity-public-domain. 
+The work I have done is far from perfect, and I think I could imporve results by dedicating more time to this project. However, I am happy I was able to learn a new skill, and look forward to using this knowledge in the future.
